@@ -1,0 +1,14 @@
+C:\Users\8cwood\source\repos\2020_igcse_prerelease\2020_igcse_prerelease\bin\Debug\2020_igcse_prerelease.exe.config
+C:\Users\8cwood\source\repos\2020_igcse_prerelease\2020_igcse_prerelease\bin\Debug\2020_igcse_prerelease.exe
+C:\Users\8cwood\source\repos\2020_igcse_prerelease\2020_igcse_prerelease\bin\Debug\2020_igcse_prerelease.pdb
+C:\Users\8cwood\source\repos\2020_igcse_prerelease\2020_igcse_prerelease\bin\Debug\2020_igcse_prerelease.xml
+C:\Users\8cwood\source\repos\2020_igcse_prerelease\2020_igcse_prerelease\obj\Debug\2020_igcse_prerelease.vbprojAssemblyReference.cache
+C:\Users\8cwood\source\repos\2020_igcse_prerelease\2020_igcse_prerelease\obj\Debug\_2020_igcse_prerelease.Resources.resources
+C:\Users\8cwood\source\repos\2020_igcse_prerelease\2020_igcse_prerelease\obj\Debug\2020_igcse_prerelease.vbproj.GenerateResource.cache
+C:\Users\8cwood\source\repos\2020_igcse_prerelease\2020_igcse_prerelease\obj\Debug\2020_igcse_prerelease.vbproj.CoreCompileInputs.cache
+C:\Users\8cwood\source\repos\2020_igcse_prerelease\2020_igcse_prerelease\obj\Debug\2020_igcse_prerelease.exe
+C:\Users\8cwood\source\repos\2020_igcse_prerelease\2020_igcse_prerelease\obj\Debug\2020_igcse_prerelease.xml
+C:\Users\8cwood\source\repos\2020_igcse_prerelease\2020_igcse_prerelease\obj\Debug\2020_igcse_prerelease.pdb
+C:\Users\8cwood\source\repos\2020_igcse_prerelease\2020_igcse_prerelease\bin\Debug\System.ValueTuple.dll
+C:\Users\8cwood\source\repos\2020_igcse_prerelease\2020_igcse_prerelease\bin\Debug\System.ValueTuple.xml
+C:\Users\8cwood\source\repos\2020_igcse_prerelease\2020_igcse_prerelease\obj\Debug\2020_igcse_prerelease.vbproj.CopyComplete

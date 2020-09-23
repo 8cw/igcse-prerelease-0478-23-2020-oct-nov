@@ -1,0 +1,74 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+2020_igcse_prerelease
+</name>
+</assembly>
+<members>
+<member name="T:_2020_igcse_prerelease.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:_2020_igcse_prerelease.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:_2020_igcse_prerelease.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:_2020_igcse_prerelease.Project.NUM_FILLINGS">
+ <summary>
+ The number of fillings a user can choose for their baguette
+ </summary>
+</member>
+<member name="F:_2020_igcse_prerelease.Project.NUM_SALAD_ITEMS">
+ <summary>
+ The amount of salad items a user can choose for their baguette
+ </summary>
+</member>
+<member name="F:_2020_igcse_prerelease.Project.BAGUETTE_SIZES">
+ <summary>
+ The sizes of bread a user can choose for their baguette
+ </summary>
+</member>
+<member name="F:_2020_igcse_prerelease.Project.BAGUETTE_BREADS">
+ <summary>
+ The available breads a user can choose for their baguette
+ </summary>
+</member>
+<member name="F:_2020_igcse_prerelease.Project.FILLINGS_AVAILABLE">
+ <summary>
+ All the fillings the user is allowed to choose from
+ </summary>
+</member>
+<member name="F:_2020_igcse_prerelease.Project.SALADS_AVAILALE">
+ <summary>
+ All the salads the user is allowed to choose from
+ </summary>
+</member>
+<member name="M:_2020_igcse_prerelease.Project.outputBaguette(System.String,System.String[],System.String[])">
+ <summary>
+ Outputs the configuration of a baguette to the console.
+ </summary>
+ <param name="bread">The bread type of the baguette</param>
+ <param name="fillings">An array of strings that contains all the fillings in the baguette</param>
+ <param name="salads">An array of strings that contains all the salads in the baguette</param>
+</member>
+<member name="M:_2020_igcse_prerelease.Project.createBaguette">
+ <summary>
+ Gets the user to create a baguette
+ </summary>
+ <returns>A tuple that contains the following:
+ - bread: The bread the user has chosen
+ - fillings: An array of fillings the user has chosen
+ - salads: An array of salads the user has chosen
+ </returns>
+</member>
+</members>
+</doc>

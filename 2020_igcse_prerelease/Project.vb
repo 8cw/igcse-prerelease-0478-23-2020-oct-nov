@@ -1,8 +1,4 @@
-﻿Imports System.ComponentModel
-Imports System.IO
-Imports System.Runtime.InteropServices.WindowsRuntime
-
-Module Project
+﻿Module Project
     ''' <summary>
     ''' The number of fillings a user can choose for their baguette
     ''' </summary>

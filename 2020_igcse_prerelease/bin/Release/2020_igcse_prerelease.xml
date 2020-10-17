@@ -1,0 +1,137 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+2020_igcse_prerelease
+</name>
+</assembly>
+<members>
+<member name="T:_2020_igcse_prerelease.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:_2020_igcse_prerelease.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:_2020_igcse_prerelease.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:_2020_igcse_prerelease.Project.NUM_FILLINGS">
+ <summary>
+ The number of fillings a user can choose for their baguette
+ </summary>
+</member>
+<member name="F:_2020_igcse_prerelease.Project.NUM_SALAD_ITEMS">
+ <summary>
+ The amount of salad items a user can choose for their baguette
+ </summary>
+</member>
+<member name="F:_2020_igcse_prerelease.Project.BAGUETTE_SIZES">
+ <summary>
+ The sizes of bread a user can choose for their baguette
+ </summary>
+</member>
+<member name="F:_2020_igcse_prerelease.Project.BAGUETTE_BREADS">
+ <summary>
+ The available breads a user can choose for their baguette
+ </summary>
+</member>
+<member name="F:_2020_igcse_prerelease.Project.FILLINGS_AVAILABLE">
+ <summary>
+ All the fillings the user is allowed to choose from
+ </summary>
+</member>
+<member name="F:_2020_igcse_prerelease.Project.SALADS_AVAILALE">
+ <summary>
+ All the salads the user is allowed to choose from
+ </summary>
+</member>
+<member name="F:_2020_igcse_prerelease.Project.LAST_ORDER_ID">
+ <summary>
+ A unique integer that gets incremented everytime we make an order
+ </summary>
+</member>
+<member name="F:_2020_igcse_prerelease.Project.BAGUETTE_SIZES_ORDERED">
+ <summary>
+ The amount ordered for each baguette size
+ </summary>
+</member>
+<member name="F:_2020_igcse_prerelease.Project.BAGUETTE_BREADS_ORDERED">
+ <summary>
+ The amount ordered for each baguette bread
+ </summary>
+</member>
+<member name="F:_2020_igcse_prerelease.Project.BAGUETTE_FILLINGS_ORDERED">
+ <summary>
+ The amount ordered for each baguette filling
+ </summary>
+</member>
+<member name="F:_2020_igcse_prerelease.Project.BAGUETTE_SALADS_ORDERED">
+ <summary>
+ The amount ordered for each baguette salads
+ </summary>
+</member>
+<member name="M:_2020_igcse_prerelease.Project.outputBaguette(System.String,System.String[],System.String[])">
+ <summary>
+ Outputs the configuration of a baguette to the console.
+ </summary>
+ <param name="bread">The bread type of the baguette</param>
+ <param name="fillings">An array of strings that contains all the fillings in the baguette</param>
+ <param name="salads">An array of strings that contains all the salads in the baguette</param>
+</member>
+<member name="M:_2020_igcse_prerelease.Project.getElementsInArray(System.String[])">
+ <summary>
+ VB.Net pre-allocates the memory of arrays with the default value of the type of array (e.g. making an string(2) will fill the 3 spaces with an empty string).
+ 
+ To properly count the amount of elements in an array, we can use this function.
+ </summary>
+ <param name="arr">The array to count the amount of elements in it</param>
+ <returns>The amount of elements inside the array</returns>
+</member>
+<member name="M:_2020_igcse_prerelease.Project.getBaguetteSize(System.Int32)">
+ <summary>
+ Asks the user what bread size they would like to order
+ </summary>
+ <param name="currentSize">An optional parameter describing the currently selected bread size if they have one. If this exists, the program will ask if they wish to modify their bread size choice.</param>
+ <returns>The bread the user wants</returns>
+</member>
+<member name="M:_2020_igcse_prerelease.Project.getBread(System.String)">
+ <summary>
+ Asks the user what bread they would like to order
+ </summary>
+ <param name="currentBread">An optional parameter describing the currently selected bread if they have one. If this exists, the program will ask if they wish to modify their bread choice.</param>
+ <returns>The bread the user wants</returns>
+</member>
+<member name="M:_2020_igcse_prerelease.Project.getFillings(System.String[])">
+ <summary>
+ Gets the fillings for a baguette
+ </summary>
+ <param name="currentFillings">The current fillings the user has</param>
+ <returns>The fillings the user wants</returns>
+</member>
+<member name="M:_2020_igcse_prerelease.Project.getSalads(System.String[])">
+ <summary>
+ Gets the salads for a baguette
+ </summary>
+ <param name="currentSalads">The current salad the user has</param>
+ <returns>The salads the user wants</returns>
+</member>
+<member name="M:_2020_igcse_prerelease.Project.createBaguette">
+ <summary>
+ Gets the user to create a baguette
+ </summary>
+ <returns>A tuple that contains the following:
+ - breadSize: The bread size the user has chosen
+ - bread: The bread the user has chosen
+ - fillings: An array of fillings the user has chosen
+ - salads: An array of salads the user has chosen
+ </returns>
+</member>
+</members>
+</doc>

@@ -1,0 +1,14 @@
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\2020_igcse_prerelease\bin\Release\2020_igcse_prerelease.exe.config
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\2020_igcse_prerelease\bin\Release\2020_igcse_prerelease.exe
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\2020_igcse_prerelease\bin\Release\2020_igcse_prerelease.pdb
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\2020_igcse_prerelease\bin\Release\2020_igcse_prerelease.xml
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\2020_igcse_prerelease\bin\Release\System.ValueTuple.dll
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\2020_igcse_prerelease\bin\Release\System.ValueTuple.xml
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\2020_igcse_prerelease\obj\Release\2020_igcse_prerelease.vbprojAssemblyReference.cache
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\2020_igcse_prerelease\obj\Release\_2020_igcse_prerelease.Resources.resources
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\2020_igcse_prerelease\obj\Release\2020_igcse_prerelease.vbproj.GenerateResource.cache
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\2020_igcse_prerelease\obj\Release\2020_igcse_prerelease.vbproj.CoreCompileInputs.cache
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\2020_igcse_prerelease\obj\Release\2020_igcse_prerelease.vbproj.CopyComplete
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\2020_igcse_prerelease\obj\Release\2020_igcse_prerelease.exe
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\2020_igcse_prerelease\obj\Release\2020_igcse_prerelease.xml
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\2020_igcse_prerelease\obj\Release\2020_igcse_prerelease.pdb

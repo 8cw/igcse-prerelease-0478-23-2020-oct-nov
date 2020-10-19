@@ -1,0 +1,10 @@
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\bin\Release\igcse-prerelease-0478-23-2020-oct-nov-simplified.exe.config
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\bin\Release\igcse-prerelease-0478-23-2020-oct-nov-simplified.exe
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\bin\Release\igcse-prerelease-0478-23-2020-oct-nov-simplified.pdb
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\bin\Release\igcse-prerelease-0478-23-2020-oct-nov-simplified.xml
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\obj\Release\igcse_prerelease_0478_23_2020_oct_nov_simplified.Resources.resources
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\obj\Release\igcse-prerelease-0478-23-2020-oct-nov-simplified.vbproj.GenerateResource.cache
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\obj\Release\igcse-prerelease-0478-23-2020-oct-nov-simplified.vbproj.CoreCompileInputs.cache
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\obj\Release\igcse-prerelease-0478-23-2020-oct-nov-simplified.exe
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\obj\Release\igcse-prerelease-0478-23-2020-oct-nov-simplified.xml
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\obj\Release\igcse-prerelease-0478-23-2020-oct-nov-simplified.pdb

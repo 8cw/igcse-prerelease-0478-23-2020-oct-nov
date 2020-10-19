@@ -144,7 +144,7 @@ Module Project
             leastPopularFillingAmount = baguetteFillingChickenOrdered
         End If
         If baguetteFillingChickenOrdered > mostPopularFillingAmount Then
-            mostPopularFillingAmount = "Chicken"
+            mostPopularFilling = "Chicken"
             mostPopularFillingAmount = baguetteFillingChickenOrdered
         End If
 
@@ -153,7 +153,7 @@ Module Project
             leastPopularFillingAmount = baguetteFillingCheeseOrdered
         End If
         If baguetteFillingCheeseOrdered > mostPopularFillingAmount Then
-            mostPopularFillingAmount = "Cheese"
+            mostPopularFilling = "Cheese"
             mostPopularFillingAmount = baguetteFillingCheeseOrdered
         End If
 
@@ -162,7 +162,7 @@ Module Project
             leastPopularFillingAmount = baguetteFillingEggOrdered
         End If
         If baguetteFillingEggOrdered > mostPopularFillingAmount Then
-            mostPopularFillingAmount = "Egg"
+            mostPopularFilling = "Egg"
             mostPopularFillingAmount = baguetteFillingEggOrdered
         End If
 
@@ -171,7 +171,7 @@ Module Project
             leastPopularFillingAmount = baguetteFillingTunaOrdered
         End If
         If baguetteFillingTunaOrdered > mostPopularFillingAmount Then
-            mostPopularFillingAmount = "Tuna"
+            mostPopularFilling = "Tuna"
             mostPopularFillingAmount = baguetteFillingTunaOrdered
         End If
 
@@ -180,7 +180,7 @@ Module Project
             leastPopularFillingAmount = baguetteFillingTurkeyOrdered
         End If
         If baguetteFillingTurkeyOrdered > mostPopularFillingAmount Then
-            mostPopularFillingAmount = "Turkey"
+            mostPopularFilling = "Turkey"
             mostPopularFillingAmount = baguetteFillingTurkeyOrdered
         End If
 
@@ -188,8 +188,11 @@ Module Project
         Dim mostPopularPercentage = ((mostPopularFillingAmount / totalOrdered) * 100).ToString()
         Dim leastPopularPercentage = ((leastPopularFillingAmount / totalOrdered) * 100).ToString()
         ' BONUS POINT: check for IndexOf of a decimal point in the string, check IndexOf is not -1 and then make it Substring(string, 0, indexOf)
-        Console.WriteLine("Most popular filling was " & mostPopularFilling & " which was ordered " & mostPopularPercentage & "% of the time.")
-        Console.WriteLine("Least popular filling was " & leastPopularFilling & " which was ordered " & leastPopularPercentage & "% of the time.")
+        If currentOrderId >= 1 Then
+            ' There has been at least one order
+            Console.WriteLine("Most popular filling was " & mostPopularFilling & " which was ordered " & mostPopularPercentage & "% of the time.")
+            Console.WriteLine("Least popular filling was " & leastPopularFilling & " which was ordered " & leastPopularPercentage & "% of the time.")
+        End If
     End Sub
 
     Sub createBaguette()

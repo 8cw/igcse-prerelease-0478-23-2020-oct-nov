@@ -1,0 +1,46 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+igcse-prerelease-0478-23-2020-oct-nov-simplified
+</name>
+</assembly>
+<members>
+<member name="T:igcse_prerelease_0478_23_2020_oct_nov_simplified.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:igcse_prerelease_0478_23_2020_oct_nov_simplified.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:igcse_prerelease_0478_23_2020_oct_nov_simplified.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:igcse_prerelease_0478_23_2020_oct_nov_simplified.Project.baguetteSize">
+ <summary>
+ Either 15 or 30 for cm
+ </summary>
+</member>
+<member name="F:igcse_prerelease_0478_23_2020_oct_nov_simplified.Project.breadType">
+ <summary>
+ Either White, Brown or Seeded
+ </summary>
+</member>
+<member name="F:igcse_prerelease_0478_23_2020_oct_nov_simplified.Project.breadFilling">
+ <summary>
+ "Beef", "Chicken", "Cheese", "Egg", "Tuna", "Turkey"
+ </summary>
+</member>
+<member name="F:igcse_prerelease_0478_23_2020_oct_nov_simplified.Project.breadSalad1">
+ <summary>
+ "Lettuce", "Tomato", "Sweetcorn", "Cucumber", "Peppers"
+ </summary>
+</member>
+</members>
+</doc>

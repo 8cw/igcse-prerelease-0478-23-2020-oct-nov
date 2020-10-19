@@ -8,3 +8,4 @@ C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\obj\Release\igcs
 C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\obj\Release\igcse-prerelease-0478-23-2020-oct-nov-simplified.exe
 C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\obj\Release\igcse-prerelease-0478-23-2020-oct-nov-simplified.xml
 C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\obj\Release\igcse-prerelease-0478-23-2020-oct-nov-simplified.pdb
+C:\Users\OverHash\Desktop\igcse-prerelease-0478-23-2020-oct-nov\obj\Release\igcse-prerelease-0478-23-2020-oct-nov-simplified.vbprojAssemblyReference.cache

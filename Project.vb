@@ -40,6 +40,16 @@ Module Project
     Dim baguetteFillingTunaOrdered As Integer = 0
     Dim baguetteFillingTurkeyOrdered As Integer = 0
 
+    Function getYesNo(message As String) As Boolean
+        Dim userResponse As String = ""
+        While userResponse <> "yes" And userResponse <> "no"
+            Console.Write(message)
+            userResponse = Console.ReadLine().ToLower()
+        End While
+
+        Return userResponse = "yes"
+    End Function
+
     Sub outputBaguette()
         Console.WriteLine("Baguette size: " & baguetteSize & "cm")
         Console.WriteLine("Bread type: " & breadType)
@@ -207,38 +217,32 @@ Module Project
         While shouldModify <> "no"
             Console.Clear()
             outputBaguette()
-            Console.Write("Would you like to modify your order? (yes/no): ")
-            shouldModify = Console.ReadLine().ToLower()
-            If shouldModify = "yes" Then
-                Console.Write("Would you like to modify your bread size? (yes/no): ")
-                Dim shouldModifyBreadSize = Console.ReadLine().ToLower()
-                If shouldModifyBreadSize = "yes" Then
+            shouldModify = getYesNo("Would you like to modify your order? (yes/no): ")
+            If shouldModify Then
+                Dim shouldModifyBreadSize = getYesNo("Would you like to modify your bread size? (yes/no): ")
+                If shouldModifyBreadSize Then
                     getBaguetteSize()
                 End If
 
-                Console.Write("Would you like to modify your bread type? (yes/no): ")
-                Dim shouldModifyBreadType = Console.ReadLine().ToLower()
-                If shouldModifyBreadType = "yes" Then
+                Dim shouldModifyBreadType = getYesNo("Would you like to modify your bread type? (yes/no): ")
+                If shouldModifyBreadType Then
                     getBreadType()
                 End If
 
-                Console.Write("Would you like to modify your bread filling? (yes/no): ")
-                Dim shouldModifyBreadFilling = Console.ReadLine().ToLower()
-                If shouldModifyBreadFilling = "yes" Then
+                Dim shouldModifyBreadFilling = getYesNo("Would you like to modify your bread filling? (yes/no): ")
+                If shouldModifyBreadFilling Then
                     getBaguetteFilling()
                 End If
 
-                Console.Write("Would you like to modify your bread salads? (yes/no): ")
-                Dim shouldModifyBreadSalad = Console.ReadLine().ToLower()
-                If shouldModifyBreadSalad = "yes" Then
+                Dim shouldModifyBreadSalad = getYesNo("Would you like to modify your bread salads? (yes/no): ")
+                If shouldModifyBreadSalad Then
                     getBaguetteSalads()
                 End If
             End If
         End While
 
-        Console.WriteLine("Would you like to proceed with your order? (yes/no): ")
-        Dim shouldContinue As String = Console.ReadLine().ToLower()
-        If shouldContinue = "no" Then
+        Dim shouldContinue As String = getYesNo("Would you like to proceed with your order? (yes/no): ")
+        If shouldContinue = False Then
             Return
         End If
 
@@ -279,10 +283,9 @@ Module Project
 
     Sub Main()
         While True
-            Console.Write("Would you like to make a baguette? (yes/no): ")
-            Dim shouldMakeBaguette = Console.ReadLine().ToLower()
+            Dim shouldMakeBaguette = getYesNo("Would you like to make a baguette? (yes/no): ")
 
-            If shouldMakeBaguette = "yes" Then
+            If shouldMakeBaguette Then
                 createBaguette()
                 Console.WriteLine("Press any key to continue...")
                 Console.ReadKey()

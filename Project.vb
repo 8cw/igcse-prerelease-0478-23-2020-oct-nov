@@ -1,6 +1,4 @@
-﻿Imports System.Runtime.CompilerServices
-
-Module Project
+﻿Module Project
 
     ''' <summary>
     ''' Either 15 or 30 for cm

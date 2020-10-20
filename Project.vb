@@ -1,5 +1,4 @@
 ﻿Module Project
-
     ''' <summary>
     ''' Either 15 or 30 for cm
     ''' </summary>
@@ -98,10 +97,10 @@
         breadSalad1 = ""
         breadSalad2 = ""
         breadSalad3 = ""
-        Console.WriteLine("The fillings available are Lettuce, Tomato, Sweetcorn, Cucumber, Peppers, or nothing. (Press enter for nothing).")
+        Console.WriteLine("The salads available are Lettuce, Tomato, Sweetcorn, Cucumber, Peppers, or nothing. (Press enter for nothing).")
 
         While breadSalad1 <> "Lettuce" And breadSalad1 <> "Tomato" And breadSalad1 <> "Sweetcorn" And breadSalad1 <> "Cucumber" And breadSalad1 <> "Peppers"
-            Console.WriteLine("What would you like for the first filling: ")
+            Console.WriteLine("What would you like for the first salad: ")
             breadSalad1 = Console.ReadLine()
 
             If breadSalad1 = "" Then
@@ -111,7 +110,7 @@
 
 
         While breadSalad2 <> "Lettuce" And breadSalad2 <> "Tomato" And breadSalad2 <> "Sweetcorn" And breadSalad2 <> "Cucumber" And breadSalad2 <> "Peppers"
-            Console.WriteLine("What would you like for the second filling: ")
+            Console.WriteLine("What would you like for the second salad: ")
             breadSalad2 = Console.ReadLine()
 
             If breadSalad2 = "" Then
@@ -121,7 +120,7 @@
 
 
         While breadSalad3 <> "Lettuce" And breadSalad3 <> "Tomato" And breadSalad3 <> "Sweetcorn" And breadSalad3 <> "Cucumber" And breadSalad3 <> "Peppers"
-            Console.WriteLine("What would you like for the third filling: ")
+            Console.WriteLine("What would you like for the third salad: ")
             breadSalad3 = Console.ReadLine()
 
             If breadSalad3 = "" Then
@@ -211,8 +210,8 @@
         getBaguetteFilling()
         getBaguetteSalads()
 
-        Dim shouldModify = ""
-        While shouldModify <> "no"
+        Dim shouldModify = True
+        While shouldModify
             Console.Clear()
             outputBaguette()
             shouldModify = getYesNo("Would you like to modify your order? (yes/no): ")
